@@ -1,0 +1,171 @@
+body {
+    font-family: 'Google Sans', sans-serif;
+    margin: 0;
+}
+main {
+    margin-top: 50px;
+}
+
+
+.item {
+    height:580px;
+    width:330px;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.container {
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 300px));
+    grid-template-rows: repeat(4, 400px);
+    column-gap: 200px ;
+    row-gap: 300px;
+
+    
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    font-weight:900;
+    font-size: xxx-large;
+}
+
+.item img {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+
+.item8 img {
+    width: 300px;
+}
+
+
+
+header div{
+    display: flex;
+    flex-direction: row;
+    background-color: coral ;
+    align-items: center;
+    border-bottom: 2px solid orange;
+    height: 100px;
+    padding: 0;
+    box-shadow: 0px 10px 8px #888888;
+}
+header a{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-left: 60px;
+}
+
+header div{
+    color: white;
+}
+header .top {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    
+}
+
+header img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin:0 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin-left: 600px;
+}
+
+nav ul li a {
+    display: flex;
+    font-size: medium;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: 800;
+    color:white;
+    
+}
+
+nav ul li a:hover{
+    color: black;
+    text-decoration:dotted;
+}
+
+
+.checked{
+    color: orange;
+}
+
+.star{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+}
+.item p{
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.item h3{
+    font-weight: 500;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.item h4{
+    width: 95px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    margin-top: auto;
+    margin-bottom: 60px;
+    transition: 0.3s;
+
+}
+.item h4 a{
+    text-decoration: none;
+    color: white;
+}
+
+.item h4:hover{
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+}
+.item h4 a:hover{
+    color: orange;
+}
+
+.item:hover{
+    box-shadow: 0px 10px 20px 5px coral ;
+    border: 2px solid coral;
+}
+
