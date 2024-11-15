@@ -3,9 +3,14 @@ body {
     margin: 0;
 }
 main {
-    margin-top: 50px;
+    margin-top: 150px;
 }
-
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
 .item {
     height:580px;
@@ -23,8 +28,8 @@ main {
 .container {
     margin: 80px;
     display: grid;
-    grid-template-columns: repeat(3, minmax(100px, 300px));
-    grid-template-rows: repeat(4, 400px);
+    grid-template-columns: repeat(auto-fit,minmax(100px, 300px));
+    grid-template-rows: repeat(auto-fit, 400px);
     column-gap: 200px ;
     row-gap: 300px;
 
@@ -59,9 +64,10 @@ header div{
     background-color: coral ;
     align-items: center;
     border-bottom: 2px solid orange;
-    height: 100px;
+    height: 80px;
     padding: 0;
     box-shadow: 0px 10px 8px #888888;
+    
 }
 header a{
     display: flex;
@@ -82,8 +88,8 @@ header .top {
 }
 
 header img {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     margin:0 15px;
 }
